@@ -9,6 +9,6 @@ export default function BlankLayout(props: BlankLayoutProps) {
   const {children} = props;
 
   return (
-    <Box component={'div'}>{children}</Box>
+    <Box component={'div'} sx={{height:'100vh'}}>{children}</Box>
   )
 }
