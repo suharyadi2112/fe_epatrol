@@ -1,0 +1,30 @@
+.side-bar-wrapper {
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+    padding: 10px;;
+}
+
+.side-bar-item {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.side-bar-item a {
+    color: grey;
+    border-radius: 20px;
+}
+
+.side-bar-item a:hover {
+    background-color:rgba(230, 247, 248, 0.5);
+    transition: 0.3s;
+    color: cadetblue !important;
+}
+
+.side-bar-item a.active {
+    color: cadetblue !important;
+    background-color:rgba(230, 247, 248, 0.5);
+    transition: 0.3s;
+}
